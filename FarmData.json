@@ -1,0 +1,123 @@
+{
+  "gold": 0,
+  "farmLevel": 1,
+  "workers": 1,
+  "lastPlayed": "2025-03-05T08:27:02.107019Z",
+  "workerDatas": [
+    {
+      "workerId": 1,
+      "lastCellAccess": 1,
+      "lastCellAccessTime": "2025-03-05T08:26:44.241269Z"
+    },
+    {
+      "workerId": 2,
+      "lastCellAccess": 2,
+      "lastCellAccessTime": "2025-03-05T08:26:44.251281Z"
+    },
+    {
+      "workerId": 0,
+      "lastCellAccess": 0,
+      "lastCellAccessTime": "2025-03-05T08:26:44.454808Z"
+    }
+  ],
+  "cellDatas": [
+    {
+      "cellId": 0,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:46.542076+07:00"
+    },
+    {
+      "cellId": 0,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T11:40:04.210914+07:00"
+    },
+    {
+      "cellId": 0,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T11:41:40.146113+07:00"
+    },
+    {
+      "cellId": 0,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T11:41:40.186611+07:00"
+    },
+    {
+      "cellId": 0,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T11:41:40.225783+07:00"
+    },
+    {
+      "cellId": 1,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:46.531963+07:00"
+    },
+    {
+      "cellId": 2,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:46.533546+07:00"
+    },
+    {
+      "cellId": 3,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:52.575932+07:00"
+    },
+    {
+      "cellId": 5,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:52.571853+07:00"
+    },
+    {
+      "cellId": 4,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:10:52.580427+07:00"
+    },
+    {
+      "cellId": 6,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:08:10.398188+07:00"
+    },
+    {
+      "cellId": 7,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:08:10.401965+07:00"
+    },
+    {
+      "cellId": 8,
+      "productId": 2,
+      "currentHarvestCount": 0,
+      "hoardedCount": 0,
+      "lastHarvestTime": "2025-03-05T15:08:10.411443+07:00"
+    }
+  ],
+  "bagDatas": [
+    {
+      "productId": 5,
+      "productQuantity": 2
+    }
+  ],
+  "seedDatas": []
+}
