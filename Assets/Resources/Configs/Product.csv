@@ -1,0 +1,7 @@
+Id	Product Name	Type	Time Process	Max Quantity To Harvest	Values Per Unit	Time Dispose	Price	Number per Purchase	Default Value	Prefab Name
+0	Tomato	Product	600	40	5	3600	30	1	10	Tomato
+1	Blueberry	Product	900	40	8	3600	50	1	10	Blueberry
+2	Strawberry	Product	300	20		3600	400	10		Strawberry
+3	Cow	Product	1800	100	15	3600	100	1	2	Cow
+4	Worker	Worker	120	0	0	0	500	1	1	0
+5	Land	Land	0	0	0	0	500	1	3	0
