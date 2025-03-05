@@ -31,6 +31,8 @@ namespace Manager
             GameView.Instance.ShowBag(false);
             SeedBag.Instance.Init(farmDataManager);
             GameView.Instance.ShowSeed(false);
+            GameView.Instance.ShowGold(farmDataManager.Data.gold);
+            GameView.Instance.ShowLevel(farmDataManager.Data.farmLevel);
         }
         
         private void LoadData()
@@ -133,6 +135,19 @@ namespace Manager
                 int quantity = ConfigManager.Instance.productData.GetProductResource(productId).NumberPerPurchase;
                 UpdateGold(-price);
                 UpdateSeed(productId, quantity);
+                switch (ConfigManager.Instance.productData.GetProductResource(productId).FarmType)
+                {
+                    case FarmType.Product:
+                        break;
+                    case FarmType.Worker:
+                        FarmController.Instance.SpawnWorkerWorking();
+                        break;
+                    case FarmType.Land:
+                        // TODO: open land
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
             }
         }
 

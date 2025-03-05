@@ -25,22 +25,31 @@ namespace Manager
         public Action<Cell> OnSpawnCellBtn;
         private List<Worker> workers = new List<Worker>();
         private int currentWorkerId = 0;
-
-        private void Start()
+        private FarmDataManager farmDataManager;
+        public void Init(FarmDataManager farmDataManager)
         {
+            this.farmDataManager = farmDataManager;
             for (int i = 0; i < cells.Count; i++)
             {
                 var worldBtn = GameController.Instance.SpawnButtonFarm(cells[i]);
                 cells[i].Initialized(i, false, worldBtn);
             }
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < farmDataManager.Data.workerDatas.Count; i++)
             {
                 var worker = SpawnWorker();
                 Cell cell = FindCellNeedToWork();
                 cell.SetWorking(worker, true);
                 worker.MoveTo(cell.Position, () => { DoWorkOnCell(cell); }, cell.CellId);
             }
+        }
+
+        public void SpawnWorkerWorking()
+        {
+            var worker = SpawnWorker();
+            Cell cell = FindCellNeedToWork();
+            cell.SetWorking(worker, true);
+            worker.MoveTo(cell.Position, () => { DoWorkOnCell(cell); }, cell.CellId);
         }
 
 
